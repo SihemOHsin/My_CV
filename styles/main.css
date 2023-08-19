@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
+}
+
+a {
+    text-decoration: none;
+    color: var(--primaryColor);
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #FEBC4E;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 5%;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+#MainMenu,
+footer,
+header {
+    display: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--primaryColor);
+    margin-bottom: 20px;
+}
+
+.project-list {
+    margin-top: 30px;
+}
+
+.project-item {
+    margin-bottom: 20px;
+}
+
+.project-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--primaryColor);
+}
+
+.project-link {
+    display: block;
+    margin-top: 5px;
+    color: var(--primaryColor);
+    transition: color 0.3s ease;
+}
+
+.project-link:hover {
+    color: #d33682;
+}
+
+.resume-button {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-link {
+    display: inline-block;
+    margin: 0 10px;
+    color: var(--primaryColor);
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #d33682;
+}
